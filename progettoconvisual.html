@@ -3,66 +3,150 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-widht, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>document</title>
-    <script src="index.js"></script>
+<link rel="stylesheet" type= "text/css" href="style3.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type= "text/css" href="style1.css">
-  </head>
-  <body>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans">
+</head>
+<body>
 
     
-
-    <div class="big-container">
-      <div class="container">
-        <header>
-          <div class="logo">
-             <h1>Ballerina</h1>
-          </div>
-          <nav>
-            <ul>
-              <li><a href="progettoconvisual.html">Home</a></li>
-              <li><a href="ABOUT_us.html">About Us</a></li>
-              <li><a href="contact.html">Contact</a></li>
-              <li><a href="#">Blog</a></li>
-              <li><a id="one" href="pagglasses.html" class= "active">Get Started</a></li>
-            </ul>
-            <form>
-              <input type="text" name="srch" id="srch"
-              required placeholder="enter your search">
-              <button type="submit"><i class="fa fa-search"></i></button>
-            </form>
-          </nav>
-        </header>
-        
-
-        <section>
-          <h2>Frase d'effetto</h2>
-          <p>qui ci scriviamo qualcosa tipo pubblcità<br>
-             bla bla bla bla bla bla bla bla bla bla </p>
-       </section>
-       <svg class="arrows">
-        <path class="a1" d="M0 0 L30 32 L60 0"></path>
-        <path class="a2" d="M0 20 L30 52 L60 20"></path>
-        <path class="a3" d="M0 40 L30 72 L60 40"></path>
-    </svg>
-        <footer>
-          <h2>Discover us</h2>
-          <p> Welcome to our website "Ballerina"<br>
-             Here you can learn about Augmented Reality
-          </p>
-          <h3>Folllow us on Social Media</h3>
-          <div class="row">
-            <a href="#"><i class="fa fa-facebook"></i></a>
-            <a href="#"><i class="fa fa-instagram"></i></a>
-            <a href="#"><i class="fa fa-twitter"></i></a>
-          </div>
-
-        </footer>
-        <video src="C:\Users\marti\Downloads\videoballerina.mp4" autoplay muted loop></video>
-
-      </div>
+    <div id="menu-bar">
+        <div id="menu" onclick="onClickMenu()">
+            <div id="bar1" class="bar"></div>
+            <div id="bar2" class="bar"></div>
+            <div id="bar3" class="bar"></div>
+        </div>
+        <ul class="nav" id="nav">
+            <li><a href="progettoconvisual.html">Home</a></li>
+            <li><a href="ABOUT_us.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Get Started</a></li>
+        </ul>
     </div>
-</body>
-</html>
+    <div class="menu-bg" id="menu-bg"></div>
+		<script src="script.js"></script>
 
+        
+ <header> 
+    
+    <div class="banner">
+        <video autoplay muted loop>
+            <source src="C:\Users\marti\OneDrive\Desktop\BALLERINA\videoaereo.mp4" type="video/mp4">
+        </video>
+        <h1> Welcome</h1>
+    </div>
+    <h2> to our world</h2>
+ </header>
+
+<section class="about">
+<div class="main">
+    <figure>
+    <img src="BALLERINA/occhiali.jpg">
+</figure>
+    <div class="about-text">
+        <h2>About Us</h2>
+        <div class="line1"></div>
+        <p>Welcome to AugmentedpeRespective
+        Our goal? Advancing Augmented Reality...
+        to advance Humanity </p>
+        <form action="contact.html" target="_blank">
+        <button type="submit"> Contact US </button>
+    </form>
+    </div>
+</div>
+</section>
+<div class="title2">
+    <h1>Our Beliefs</h1>
+    
+</div>
+
+<div class="container">
+<div class="card">
+    <div class="imgBx">
+    <img src="BALLERINA/lavoro.jpg" alt="lavoro">
+</div>  
+    <div class="intro">
+        <h1>Educating</h1>
+        <p> AR can have a significant impact on learning and working environments: some examples are Student engagement and interest,
+            Collaboration, Memory, Content understanding, Cost-effectiveness, Sensory development
+        </p>
+    </div>
+</div>
+<div class="card">
+    <div class="imgBx">
+    <img src="BALLERINA/puzzle.jpg" alt="puzzle">
+</div>
+    <div class="intro">
+        <h1>Connecting</h1>
+        <p> AR allows interaction between computer-generated 
+            information and the world around you.
+            Hundreds of companies, entrepreneurs, engineers and designers 
+            whith a purpose: advancing Augmented Reality</p>
+    </div>
+</div>
+<div class="card">
+    <div class="imgBx">
+    <img src="BALLERINA/lampadina4.jpeg" alt="lampadina">
+</div>
+    <div class="intro">
+        <h1>Innovating</h1>
+        <p> Augmented reality overlays digital content and information onto the physical world, as if they’re actually there with you, in your own space. </p>
+    </div>
+</div>
+</div>
+
+
+
+
+<div class="title2">
+    <h1>Our TEAM</h1>
+<div class="main">
+    <div class="profile-card">
+        <div class="img">
+            <img src="BALLERINA/fotomia.jpeg">
+        </div>
+        <div class="caption">
+            <p>Project Manager</p>
+            <div class="social-links">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="profile-card">
+        <div class="img">
+            <img src="BALLERINA/fotogiulia.jpeg">
+        </div>
+        <div class="caption">
+            <p>CEO</p>
+            <div class="social-links">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="profile-card">
+        <div class="img">
+            <img src="BALLERINA/fotogiulia2.jpeg">
+        </div>
+        <div class="caption">
+            <p>Front End Developer</p>
+            <div class="social-links">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+            </div>
+        </div>
+    </div>
+
+                
+
+
+
+</body>
+
+
+</html>
